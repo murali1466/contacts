@@ -1,38 +1,53 @@
-.App {
+.heading {
+  color: #3a1ea0;
+  font-family: "Courier New", Courier, monospace;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: end;
+}
+.form label {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  padding-right: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+.form input {
+  height: 20px;
+}
+.form button {
+  width: 130px;
+  height: 28px;
+  background-color: palegreen;
+  border-color: aquamarine;
+}
+.main-container {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container label {
+  text-align: left;
+  padding-left: 10px;
+}
+.contactList {
+  display: inline-block;
+}
+table {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
